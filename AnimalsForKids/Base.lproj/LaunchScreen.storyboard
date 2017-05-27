@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.jpg" highlightedImage="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Feh-18-Sf4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by Evgeniy Timofeev. Copyright 2016 © All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="391-wS-zQo">
+                                <rect key="frame" x="16" y="626" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gpO-ml-gsw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aninals for kids" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="Lc4-ES-YIw">
+                                <rect key="frame" x="16" y="184" width="343" height="298"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="85"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Lc4-ES-YIw" firstAttribute="centerY" secondItem="Feh-18-Sf4" secondAttribute="centerY" id="2Yy-Sw-5tr"/>
+                            <constraint firstItem="Lc4-ES-YIw" firstAttribute="trailing" secondItem="391-wS-zQo" secondAttribute="trailing" id="90c-kS-UZL"/>
+                            <constraint firstItem="Feh-18-Sf4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="GF9-nl-W0b"/>
+                            <constraint firstItem="Lc4-ES-YIw" firstAttribute="leading" secondItem="391-wS-zQo" secondAttribute="leading" id="H0g-3L-vds"/>
+                            <constraint firstAttribute="trailing" secondItem="Feh-18-Sf4" secondAttribute="trailing" id="QMI-zn-zCu"/>
+                            <constraint firstItem="Feh-18-Sf4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="aHY-hx-zDf"/>
+                            <constraint firstItem="Lc4-ES-YIw" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="164" id="fAf-AI-slH"/>
+                            <constraint firstAttribute="bottom" secondItem="391-wS-zQo" secondAttribute="bottom" constant="20" symbolic="YES" id="kZr-Ll-wMP"/>
+                            <constraint firstItem="Feh-18-Sf4" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="oKy-e3-PxE"/>
+                            <constraint firstItem="391-wS-zQo" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="otr-9a-hG2"/>
+                            <constraint firstItem="391-wS-zQo" firstAttribute="centerX" secondItem="Feh-18-Sf4" secondAttribute="centerX" id="xiR-h3-aK2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.jpg" width="1920" height="1593"/>
+    </resources>
+</document>
